@@ -1,0 +1,9 @@
+blogger_posts/
+.idea/
+build/
+dist/
+*.pyc
+*.pyo
+*.iml
+*~
+*.swp

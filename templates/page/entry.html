@@ -1,0 +1,16 @@
+---
+layout: post
+uuid: "{{ uuid }}"
+title: "{{ title }}"
+date: "{{ published }}"
+permalink: "{{ permalink }}"
+categories:
+ - old
+{% for category in categories %}
+ - {{ category }}
+{% endfor %}
+---
+
+<div class='post'>
+    {{ content }}
+</div>
